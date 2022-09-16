@@ -1,0 +1,51 @@
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.img-1 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.img-2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.img-3 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.img-4 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.three {
+    display: flex;
+}
+
+.four {
+    display: flex;
+}
