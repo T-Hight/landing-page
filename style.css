@@ -1,6 +1,75 @@
+.One {
+    background-color: rgb(5, 150, 5);
+}
+
 .one {
     display: flex;
+    
 }
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.Logo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 80px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mission-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.mission-content {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 10px;
+}
+
+button {
+    font-size: 18px;
+    color: #e5e7eb;
+    background: rgb(35, 147, 218);
+}
+
+
 
 .two {
     display: flex;
