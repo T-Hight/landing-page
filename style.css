@@ -10,6 +10,7 @@
     font-size: 64px;
     font-weight: 500;
     color: #f9faf8;
+    font-family: sans-serif;
 }
 
 .Logo {
@@ -35,6 +36,7 @@ ul {
 a {
     text-decoration: none;
     color: wheat;
+    font-family: sans-serif;
 }
 
 .Header {
@@ -56,21 +58,26 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    font-family: sans-serif;
 }
 
 .mission-content {
     font-size: 18px;
     color: #e5e7eb;
     padding: 10px;
+    font-family: sans-serif;
 }
 
 button {
     font-size: 18px;
     color: #e5e7eb;
     background: rgb(35, 147, 218);
+    font-family: sans-serif;
 }
 
-
+img {
+    border-radius: 30px;
+}
 
 .two {
     display: flex;
@@ -88,6 +95,7 @@ button {
     font-weight: 800;
     font-size: 36px;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 #all {
@@ -104,35 +112,7 @@ button {
     border-radius: 30px;
 }
 
-.img-1 {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-.img-2 {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-    
-.img-3 {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.img-4 {
+.img-1.img-2.img-3.img-4 {
     display: flex;
     flex-flow: column wrap;
     flex: 1;
@@ -143,11 +123,10 @@ button {
 
 .text{
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     align-items: center;
     flex-flow: wrap;
 }
-
 
 .three {
     display: flex;
@@ -204,10 +183,12 @@ button {
 .join-text {
     font-size: 24px;
     font-weight: 400;
+    font-family: sans-serif;
 }
 
 .link-text {
     font-size: 18px;
+    font-family: sans-serif;
 }
 
 .box-right {
@@ -224,4 +205,5 @@ button {
     background-color: rgb(5, 150, 5);
     justify-content: center;
     padding: 20px;
+    font-family: sans-serif;
 }
